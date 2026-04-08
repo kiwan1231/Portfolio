@@ -1,0 +1,19 @@
+#commanderData
+#0_number          1_imageKey      2_faceImageKey         3_talkImageKey  4_posX  5_posY  6_armyType        7_name           8_calss  9_type     10_mercenartOrder  11_level  12_curExp  13_maxExp  14_maxHp  15_maxMp  16_atk  17_def  18_migAtk  19_migDef  20_move  21_atkRange  22_commandRange  23_commandAtk  24_commandDef  25_properties  26_atkItem  27_defItem  28_(s)skill~  29_(m)mercenary~
+        1              1_Hein         1_Hein_face            1_Hein_talk       6       6           1          헤인            위자드       0                     0         9         20        100        10        30      35      30          5          4        6            1                5             10              7              0          11          31  s0  s1000  s2000  s3000  s4000  s5000  m1000  m2000  m3000  
+       10             11_Leon        11_Leon_face           11_Leon_talk      10      10           2          레온          로얄가드       1                     0         9          0        100        10        15      45      35          3          3        7            1                6             13              5              0           6          23  s1000  m1000  m2000  m3000   
+#mercenaryData
+# 0_commander      1_name  2_posX  3_posY  4_armyType  5_mercenartOrder
+         헤인        솔져       0      -1           1                 0 
+         헤인        솔져      -1       0           1                 0 
+         헤인        솔져       0       1           1                 0 
+         헤인        솔져       0       1           1                 0 
+         헤인        솔져      -1      -1           1                 0 
+         헤인        솔져       1       1           1                 0 
+         레온      트루퍼       0      -1           2                 0 
+         레온      트루퍼      -1       0           2                 0 
+         레온      트루퍼       0       1           2                 0 
+         레온      트루퍼       0       1           2                 0 
+         레온      트루퍼      -1      -1           2                 0 
+         레온      트루퍼       1       1           2                 0 
+#end

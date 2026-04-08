@@ -1,0 +1,8 @@
+#summonData
+# 0_number    1_type           2_name    3_atk    4_def     5_magicAtk    6_magicDef    7_move    8_atkRange  9_maxHp   10_maxMp     11_useMp  12_properties 13_skill 
+      6000         3         프레이어       36       26              3             5         7             1       10         25           20              1     1000  
+# end
+#
+# number - 캐릭터 넘버 각 캐릭터를 구분하고 이미지 넘버로도 쓰인다.
+# type - 0 :보병, 1: 기병, 2:수병, 3:비병
+# properties - 0 : 기본 속성, 1 - 빛  2- 어둠

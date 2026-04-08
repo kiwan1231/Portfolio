@@ -1,0 +1,13 @@
+#classData
+#0_myCalss                #1_nextClass1           #2_nextClass2          3_upAtk  4_upDef   5_upMp  6_move  7_commandRange  8_commandUpAtk  9_commandUpDef    10_(s)skill~   11_(m)mercenary~
+     하이로드                      제너럴                    레인져                10          10            0           5                          5                        5                          5      s2000  m1000  m2000  
+        제너럴                       엠페러                       end                 10          10            0           5                          5                        5                          5      s3000  m1001    
+        레인져                 하이마스터                       end                 10          10            0           5                          5                        5                          5      s3002  m3000   
+        엠페러                           end                        end                 10          10            0           5                          5                        5                          5      s1000   
+  하이마스터                           end                        end                 10          10            0           5                          5                        5                          5      s1000 
+        메이지                아크메이지          하이프리스트                 10          10            0           5                          5                        3                          3      s1000  r6000  m1000  m2000 
+  아크메이지                       위자드                       end                 10          10            0           5                          5                        5                          5      s1010  s3000 s5000  m3000   
+ 하이프리스트                  에어전트                       end                 10          10            0           5                          5                        5                          5      s2000  s3002  m1002   
+        위자드                           end                        end                 10          10            0           5                          5                        5                          5      s5000    
+     에어전트                           end                        end                 10          10            0           5                          5                        5                          5     
+#end

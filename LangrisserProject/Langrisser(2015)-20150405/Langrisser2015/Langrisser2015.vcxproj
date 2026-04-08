@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55B5925A-CB35-4DD6-80F5-FDF7DEC0BB24}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Langrisser2015</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2DGameFramework\animation\animation.cpp" />
+    <ClCompile Include="2DGameFramework\effect\effect.cpp" />
+    <ClCompile Include="2DGameFramework\gameNode.cpp" />
+    <ClCompile Include="2DGameFramework\image\image.cpp" />
+    <ClCompile Include="2DGameFramework\loading\loadItem.cpp" />
+    <ClCompile Include="2DGameFramework\manager\effectManager.cpp" />
+    <ClCompile Include="2DGameFramework\manager\imageManager.cpp" />
+    <ClCompile Include="2DGameFramework\manager\keyManager.cpp" />
+    <ClCompile Include="2DGameFramework\manager\soundManager.cpp" />
+    <ClCompile Include="2DGameFramework\manager\timeManager.cpp" />
+    <ClCompile Include="2DGameFramework\progressBar\progressBar.cpp" />
+    <ClCompile Include="2DGameFramework\timer\timer.cpp" />
+    <ClCompile Include="2DGameFramework\txtData\txtData.cpp" />
+    <ClCompile Include="2DGameFramework\UTIL\utils.cpp" />
+    <ClCompile Include="pkwSource\aStarAlgorism.cpp" />
+    <ClCompile Include="pkwSource\battleEndEvent.cpp" />
+    <ClCompile Include="pkwSource\battleEvent.cpp" />
+    <ClCompile Include="pkwSource\classChangeEvent.cpp" />
+    <ClCompile Include="pkwSource\commanderAI.cpp" />
+    <ClCompile Include="pkwSource\levelUpEvent.cpp" />
+    <ClCompile Include="pkwSource\mercenaryAI.cpp" />
+    <ClCompile Include="pkwSource\PkwActionProcess.cpp" />
+    <ClCompile Include="pkwSource\PkwAtkMagic.cpp" />
+    <ClCompile Include="pkwSource\PkwBattleMapScene.cpp" />
+    <ClCompile Include="pkwSource\PkwBattleScene.cpp" />
+    <ClCompile Include="pkwSource\PkwBattleSetScene.cpp" />
+    <ClCompile Include="pkwSource\PkwBattleShowScene.cpp" />
+    <ClCompile Include="pkwSource\PkwBsNormalScene.cpp" />
+    <ClCompile Include="pkwSource\PkwBsShopScene.cpp" />
+    <ClCompile Include="pkwSource\PkwCharactorPlay.cpp" />
+    <ClCompile Include="pkwSource\PkwClassData.cpp" />
+    <ClCompile Include="pkwSource\PkwDataBase.cpp" />
+    <ClCompile Include="pkwSource\PkwDataManager.cpp" />
+    <ClCompile Include="pkwSource\PkwEffectPlay.cpp" />
+    <ClCompile Include="pkwSource\PkwEventManager.cpp" />
+    <ClCompile Include="pkwSource\PkwFireBallMagic.cpp" />
+    <ClCompile Include="pkwSource\PkwGameManager.cpp" />
+    <ClCompile Include="pkwSource\PkwHealEffect.cpp" />
+    <ClCompile Include="pkwSource\PkwLoadingScene.cpp" />
+    <ClCompile Include="pkwSource\PkwMagicEffect.cpp" />
+    <ClCompile Include="pkwSource\PkwMap.cpp" />
+    <ClCompile Include="pkwSource\PkwMeteorMagic.cpp" />
+    <ClCompile Include="pkwSource\PkwOpeningScene.cpp" />
+    <ClCompile Include="pkwSource\PkwPrayerSummon.cpp" />
+    <ClCompile Include="pkwSource\PkwProtectionMagic.cpp" />
+    <ClCompile Include="pkwSource\PkwScenarioScene.cpp" />
+    <ClCompile Include="pkwSource\PkwTeleportMagic.cpp" />
+    <ClCompile Include="pkwSource\talkEvent.cpp" />
+    <ClCompile Include="pkwSource\turnChangeEvent.cpp" />
+    <ClCompile Include="pkwSource\unitAI_Algorism.cpp" />
+    <ClCompile Include="pkwSource\unitDeathEvent.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="winMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2DGameFramework\animation\animation.h" />
+    <ClInclude Include="2DGameFramework\effect\effect.h" />
+    <ClInclude Include="2DGameFramework\gameNode.h" />
+    <ClInclude Include="2DGameFramework\image\image.h" />
+    <ClInclude Include="2DGameFramework\loading\loadItem.h" />
+    <ClInclude Include="2DGameFramework\manager\effectManager.h" />
+    <ClInclude Include="2DGameFramework\manager\imageManager.h" />
+    <ClInclude Include="2DGameFramework\manager\keyManager.h" />
+    <ClInclude Include="2DGameFramework\manager\singletonBase.h" />
+    <ClInclude Include="2DGameFramework\manager\soundManager.h" />
+    <ClInclude Include="2DGameFramework\manager\timeManager.h" />
+    <ClInclude Include="2DGameFramework\progressBar\progressBar.h" />
+    <ClInclude Include="2DGameFramework\timer\timer.h" />
+    <ClInclude Include="2DGameFramework\txtData\txtData.h" />
+    <ClInclude Include="2DGameFramework\UTIL\utils.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="pkwSource\aStarAlgorism.h" />
+    <ClInclude Include="pkwSource\battleEndEvent.h" />
+    <ClInclude Include="pkwSource\battleEvent.h" />
+    <ClInclude Include="pkwSource\classChangeEvent.h" />
+    <ClInclude Include="pkwSource\commanderAI.h" />
+    <ClInclude Include="pkwSource\levelUpEvent.h" />
+    <ClInclude Include="pkwSource\mercenaryAI.h" />
+    <ClInclude Include="pkwSource\PkwActionProcess.h" />
+    <ClInclude Include="pkwSource\PkwAtkMagic.h" />
+    <ClInclude Include="pkwSource\PkwBattleMapScene.h" />
+    <ClInclude Include="pkwSource\PkwBattleScene.h" />
+    <ClInclude Include="pkwSource\PkwBattleSetScene.h" />
+    <ClInclude Include="pkwSource\PkwBattleShowScene.h" />
+    <ClInclude Include="pkwSource\PkwBsNormalScene.h" />
+    <ClInclude Include="pkwSource\PkwBsShopScene.h" />
+    <ClInclude Include="pkwSource\PkwCharactorPlay.h" />
+    <ClInclude Include="pkwSource\PkwClassData.h" />
+    <ClInclude Include="pkwSource\PkwDataBase.h" />
+    <ClInclude Include="pkwSource\PkwDataManager.h" />
+    <ClInclude Include="pkwSource\PkwEffectPlay.h" />
+    <ClInclude Include="pkwSource\PkwEventManager.h" />
+    <ClInclude Include="pkwSource\PkwFireBallMagic.h" />
+    <ClInclude Include="pkwSource\PkwGameManager.h" />
+    <ClInclude Include="pkwSource\PkwHealEffect.h" />
+    <ClInclude Include="pkwSource\PkwLoadingScene.h" />
+    <ClInclude Include="pkwSource\PkwMagicEffect.h" />
+    <ClInclude Include="pkwSource\PkwMap.h" />
+    <ClInclude Include="pkwSource\PkwMeteorMagic.h" />
+    <ClInclude Include="pkwSource\PkwOpeningScene.h" />
+    <ClInclude Include="pkwSource\PkwPrayerSummon.h" />
+    <ClInclude Include="pkwSource\PkwProtectionMagic.h" />
+    <ClInclude Include="pkwSource\PkwScenarioScene.h" />
+    <ClInclude Include="pkwSource\PkwTeleportMagic.h" />
+    <ClInclude Include="pkwSource\talkEvent.h" />
+    <ClInclude Include="pkwSource\turnChangeEvent.h" />
+    <ClInclude Include="pkwSource\unitAI_Algorism.h" />
+    <ClInclude Include="pkwSource\unitDeathEvent.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

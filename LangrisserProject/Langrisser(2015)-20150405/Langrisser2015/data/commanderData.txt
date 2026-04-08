@@ -1,0 +1,12 @@
+#commanderData
+#0_number          1_imageKey      2_faceImageKey         3_talkImageKey  4_posX  5_posY  6_armyType        7_name           8_calss  9_type     10_mercenartOrder  11_level  12_curExp  13_maxExp  14_maxHp  15_maxMp  16_atk  17_def  18_migAtk  19_migDef  20_move  21_atkRange  22_commandRange  23_commandAtk  24_commandDef  25_properties  26_atkItem  27_defItem  28_(s)skill~  29_(m)mercenary~
+        0             0_Enwin        0_Enwin_face           0_Enwin_talk      -1      -1           0           엘윈         하이로드       0                     0         9         90        100        10        30      27      21          4          4        6            1                5              4              3              0           0          19  s2000  m1000  m2000  
+        1             1_Hein          1_Hein_face            1_Hein_talk      -1      -1           0           헤인           메이지       0                     0         9         90        100        10        30      20      17          5          4        6            1                5              2              2              0           3          19  s1000  r6000  m1000  m2000    
+#end
+#
+#number - 캐릭터 넘버 각 캐릭터를 구분하고 이미지 넘버로도 쓰인다.Enwin
+#pos - -1이면 임의로 위치를 설정한다.
+#armyType - 0:아군 1 :지원군 2:적군
+#type - 0 :보병, 1: 기병, 2:수병, 3:비병
+#8_mercenartOrder - 0 : 배틀 1 : 돌격 2 : 방어 3 : 수동
+#properties - 0 : 기본 속성, 1 - 빛  2- 어둠

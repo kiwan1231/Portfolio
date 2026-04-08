@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pkw">
+      <UniqueIdentifier>{d19b7609-b045-4779-8a1f-a567fb6ac7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{1214aef8-12e4-4944-9911-283f75fe082a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\manager">
+      <UniqueIdentifier>{e1659599-5230-430c-b33a-db3a8148359f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{b3e1e6c1-8d93-43e9-aa75-b2905f27113e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{d41cadd4-28b6-4cff-bf33-82a386294da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{4e188c28-251d-477a-bdfb-e93cded5a778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{2cf82410-4064-4cf5-8ef8-fc76833c42e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{ecde5a57-bd7d-495c-8daf-888adc165f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UTIL">
+      <UniqueIdentifier>{b4739cbc-b177-48dc-a6fb-91ad62ee5a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{e1082f13-24e6-45f8-9c5e-635b6af2c0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\battleScene">
+      <UniqueIdentifier>{03c4a030-60d2-429b-8995-8f80f735a9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\openingScene">
+      <UniqueIdentifier>{0b1b4b26-cdfc-4f66-ac22-9ea68a5f9420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\dataBase">
+      <UniqueIdentifier>{c0bf38a3-ff94-41f4-9df9-0a8531ccd79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\scenarioScene">
+      <UniqueIdentifier>{b2c5134b-d11d-44dd-abfa-c16554f40bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\loadingScene">
+      <UniqueIdentifier>{88881d03-5620-414d-b959-9af0f92aecee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\battleSetScene">
+      <UniqueIdentifier>{feb042a6-9b9b-4371-824d-dbf6b73bdeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\magicEffect">
+      <UniqueIdentifier>{f78fb8dd-defa-4ab2-b51b-6ffb16cb10c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\battleScene\battleEvent">
+      <UniqueIdentifier>{3b6d4b3b-9f3c-4f11-9ac9-edb32f375f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pkw\battleScene\ai">
+      <UniqueIdentifier>{491066dc-d6fd-4c50-924a-4f4d415d57ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwGameManager.cpp">
+      <Filter>Pkw</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\manager\keyManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\image\image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\animation\animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\manager\timeManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\manager\imageManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\progressBar\progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\timer\timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\txtData\txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\UTIL\utils.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\manager\effectManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\effect\effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBattleScene.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwOpeningScene.cpp">
+      <Filter>Pkw\openingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwActionProcess.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwCharactorPlay.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwDataBase.cpp">
+      <Filter>Pkw\dataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwDataManager.cpp">
+      <Filter>Pkw\dataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwMap.cpp">
+      <Filter>Pkw\dataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwScenarioScene.cpp">
+      <Filter>Pkw\scenarioScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwLoadingScene.cpp">
+      <Filter>Pkw\loadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBattleSetScene.cpp">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBsNormalScene.cpp">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBsShopScene.cpp">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\loading\loadItem.cpp">
+      <Filter>Pkw\loadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBattleMapScene.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwBattleShowScene.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="2DGameFramework\manager\soundManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwEffectPlay.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwMagicEffect.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwHealEffect.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwAtkMagic.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwProtectionMagic.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwMeteorMagic.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwFireBallMagic.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwTeleportMagic.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwPrayerSummon.cpp">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\aStarAlgorism.cpp">
+      <Filter>Pkw\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwEventManager.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\battleEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\turnChangeEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\levelUpEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\unitDeathEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\classChangeEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\PkwClassData.cpp">
+      <Filter>Pkw\dataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\talkEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\battleEndEvent.cpp">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\unitAI_Algorism.cpp">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\mercenaryAI.cpp">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="pkwSource\commanderAI.cpp">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwGameManager.h">
+      <Filter>Pkw</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\keyManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\singletonBase.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\image\image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\animation\animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\imageManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\timeManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\progressBar\progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\timer\timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\txtData\txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\UTIL\utils.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\effectManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\effect\effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBattleScene.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwOpeningScene.h">
+      <Filter>Pkw\openingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwActionProcess.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwCharactorPlay.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwDataBase.h">
+      <Filter>Pkw\dataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwDataManager.h">
+      <Filter>Pkw\dataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwMap.h">
+      <Filter>Pkw\dataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwScenarioScene.h">
+      <Filter>Pkw\scenarioScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwLoadingScene.h">
+      <Filter>Pkw\loadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBattleSetScene.h">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBsNormalScene.h">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBsShopScene.h">
+      <Filter>Pkw\battleSetScene</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\loading\loadItem.h">
+      <Filter>Pkw\loadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBattleMapScene.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwBattleShowScene.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="2DGameFramework\manager\soundManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwEffectPlay.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwMagicEffect.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwHealEffect.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwAtkMagic.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwProtectionMagic.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwMeteorMagic.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwFireBallMagic.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwTeleportMagic.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwPrayerSummon.h">
+      <Filter>Pkw\magicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\aStarAlgorism.h">
+      <Filter>Pkw\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwEventManager.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\battleEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\turnChangeEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\levelUpEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\unitDeathEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\classChangeEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\PkwClassData.h">
+      <Filter>Pkw\dataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\talkEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\battleEndEvent.h">
+      <Filter>Pkw\battleScene\battleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\unitAI_Algorism.h">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\commanderAI.h">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="pkwSource\mercenaryAI.h">
+      <Filter>Pkw\battleScene\ai</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
