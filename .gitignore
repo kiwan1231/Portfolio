@@ -5,7 +5,7 @@ ipch/
 Debug/
 Release/
 x64/
-
+Gitignore/
 # Compiled Object files
 *.slo
 *.lo

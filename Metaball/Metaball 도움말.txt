@@ -1,0 +1,28 @@
+-소개-
+Metaball은 캐릭터를 직접 조작하여 콩을 컨트롤하고 득점을 겨루는 실시간 멀티플레이 스포츠 액션게임입니다.
+
+-작업시환경 및 사용 기술-
+C#
+VisualStudio
+GitHub
+Unity
+Photon Quantum
+SteamSDK
+
+-플레이 영상링크-
+https://youtu.be/QIwaxo2QGyc
+https://youtu.be/e77TmIeR-Sk
+
+-담당업무-
+캐릭터 이동 및 볼 컨트롤 액션
+Ai 플레이어 기능
+경기 플레이 진행 로직
+게임 리플레이
+Steam 빌드 및 배포
+
+-파일 설명-
+HoverboardSystem.Actions.cs : 캐릭터 기동 로직
+DribbleSystem.cs : 캐릭터 공 컨트롤 로직
+GamePlay_BeginnerRoad.cs : 튜토리얼 진행 로직
+MultiplayRunner.Review.cs : 리플레이 재생 로직
+

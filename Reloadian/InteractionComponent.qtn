@@ -1,0 +1,66 @@
+
+asset InteractionCheckBehavior;
+asset InteractionActionBehavior;
+
+struct InteractionActionArgument
+{
+    entity_ref actionRef;
+    int actionNumber;
+
+    int paramInt;
+    entity_ref paramRef;
+}
+
+struct InteractionCheck
+{
+    asset_ref<InteractionCheckBehavior> checkBehavior;
+    bool disableInteraction;
+    [AllocateOnComponentAdded] list<InteractionActionArgument> actionArgumentList;
+    [ExcludeFromPrototype] bool init;
+    int curCheckCount;
+    int maxCheckCount;
+    bool isRepeat;
+    int curPlayCount;
+    int maxPlayCount;
+}
+
+[Serializable]
+component InteractionCheckComponent
+{
+    [AllocateOnComponentAdded] list<InteractionCheck> checkList;
+}
+
+struct InteractionAction
+{
+    asset_ref<InteractionActionBehavior> actionBehavior;
+    bool disableInteraction;
+
+    [ExcludeFromPrototype] bool init;
+    [ExcludeFromPrototype] bool enabledUpdate;
+    [ExcludeFromPrototype] FP elapsedTime;
+}
+
+[Serializable]
+component InteractionActionComponent
+{
+    [AllocateOnComponentAdded] list<InteractionAction> actionList;
+}
+
+enum InteractionCheckPlayEventType
+{
+    None = 0,
+    NotActive = 1,
+}
+
+/// 플레이어 포탈 상호작용 실행
+event OnInteractionCheckPlayEvent
+{
+	entity_ref checkEntity;
+	InteractionCheckPlayEventType eventType;
+}
+
+event OnSpawnEffect
+{
+    FPVector2 pos;
+    String id;
+}
